@@ -1,0 +1,4 @@
+MESSAGE "File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd" 
+MESSAGE "Compile Entity "FunctionCalculator"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "FunctionCalculator"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

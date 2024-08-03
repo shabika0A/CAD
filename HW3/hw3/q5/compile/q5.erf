@@ -1,0 +1,13 @@
+MESSAGE "File: F:/uni/CAD/HW3/hw3/q5/src/Convolution.vhd" 
+MESSAGE "Compile Entity "ConvolutionUnit"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "ConvolutionUnit"" 
+MESSAGE "File: F:/uni/CAD/HW3/hw3/q5/src/TestBench/convolutionunit_TB.vhd" 
+MESSAGE "Compile Entity "convolutionunit_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "convolutionunit_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_convolutionunit"" 
+MESSAGE "File: F:/uni/CAD/HW3/hw3/q5/src/TestBench/convolutionunit2_TB.vhd" 
+MESSAGE "Compile Entity "convolutionunit2_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "convolutionunit2_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_convolutionunit"" 
+WARNING COMP96_0994: "Multiple configuration "TESTBENCH_FOR_convolutionunit" found in "F:/uni/CAD/HW3/hw3/q5/src/TestBench/convolutionunit2_TB.vhd", "F:/uni/CAD/HW3/hw3/q5/src/TestBench/convolutionunit_TB.vhd"." "F:/uni/CAD/HW3/hw3/q5/src/TestBench/convolutionunit2_TB.vhd" 87 1
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time :  0.1 [s]" 

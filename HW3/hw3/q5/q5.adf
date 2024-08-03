@@ -1,0 +1,83 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=q5
+[Library]
+q5=.\q5\q5.lib
+[$LibMap$]
+q5=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+[Files]
+/Convolution.vhd=-1
+/..\..\q6\src\test6.awc=-1
+/test5_1.asdb=-1
+/test5_1.awc=-1
+/test5_2.asdb=-1
+/test5_2.awc=-1
+TestBench/convolutionunit_TB.vhd=-1
+TestBench/convolutionunit_TB_runtest.do=-1
+TestBench/convolutionunit2_TB.vhd=-1
+TestBench/convolutionunit2_TB_runtest.do=-1
+[Files.Data]
+.\src\Convolution.vhd=VHDL Source Code
+.\..\q6\src\test6.awc=Accelerated Waveform Configuration
+.\src\test5_1.asdb=Accelerated Waveform File
+.\src\test5_1.awc=Accelerated Waveform Configuration
+.\src\test5_2.asdb=Accelerated Waveform File
+.\src\test5_2.awc=Accelerated Waveform Configuration
+.\src\TestBench\convolutionunit_TB.vhd=VHDL Test Bench
+.\src\TestBench\convolutionunit_TB_runtest.do=Macro
+.\src\TestBench\convolutionunit2_TB.vhd=VHDL Test Bench
+.\src\TestBench\convolutionunit2_TB_runtest.do=Macro
+[HierarchyViewer]
+HierarchyInformation=convolutionunit2_tb|TB_ARCHITECTURE|0 convolutionunit_tb|TB_ARCHITECTURE|0
+ShowHide=ShowTopLevel
+Selected=
+[folders]
+name0=ALINT-PRO Workspaces
+directory0=F:\uni\CAD\HW3\hw3\q5\
+extension0=alintws
+name1=Coverage Databases
+directory1=F:\uni\CAD\HW3\hw3\q5\
+extension1=acdb
+name2=Dll Libraries
+directory2=F:\uni\CAD\HW3\hw3\q5\
+extension2=dll
+name3=Event Lists
+directory3=F:\uni\CAD\HW3\hw3\q5\
+extension3=lst
+name4=HTML Files
+directory4=F:\uni\CAD\HW3\hw3\q5\
+extension4=htm;html
+name5=Log Files
+directory5=F:\uni\CAD\HW3\hw3\q5\
+extension5=log;htm;xml;txt
+name6=Matlab/Simulink Files
+directory6=F:\uni\CAD\HW3\hw3\
+extension6=m;mdl;slx
+name7=Memory Files
+directory7=F:\uni\CAD\HW3\hw3\q5\
+extension7=mem;mif;hex
+name8=PDF Files
+directory8=F:\uni\CAD\HW3\hw3\q5\
+extension8=pdf
+name9=Profiler Databases
+directory9=F:\uni\CAD\HW3\hw3\q5\
+extension9=tbp
+name10=Script Files
+directory10=F:\uni\CAD\HW3\hw3\q5\
+extension10=do;tcl;pl
+name11=Waveform Files
+directory11=F:\uni\CAD\HW3\hw3\q5\
+extension11=asdb;awc;asdbc;asdbe
+[Groups]
+TestBench=1

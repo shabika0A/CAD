@@ -1,0 +1,1 @@
+-w -erf F:/uni/CAD/HW3/hw3/q6/compile/q6.erf -d F:/uni/CAD/HW3/hw3/q6/compile -s F:/uni/CAD/HW3/hw3/library.cfg -j F:/uni/CAD/HW3/hw3/q6/projlib.cfg -work q6 -reorder -dbg -e 100 -work q6 -2002 F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd F:/uni/CAD/HW3/hw3/q6/src/TestBench/serialreceiver_TB.vhd 

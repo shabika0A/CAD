@@ -1,0 +1,8 @@
+MESSAGE "File: F:/uni/CAD/HW4/q2/q2/src/q2.vhd" 
+MESSAGE "Compile Entity "test_conv_std_logic"" 
+MESSAGE "Compile Architecture "rtl" of Entity "test_conv_std_logic"" 
+MESSAGE "File: F:/uni/CAD/HW4/q2/q2/src/TestBench/test_conv_std_logic_TB.vhd" 
+MESSAGE "Compile Entity "tb_test_conv_std_logic"" 
+MESSAGE "Compile Architecture "tb" of Entity "tb_test_conv_std_logic"" 
+MESSAGE "Compile Configuration "cfg_tb_test_conv_std_logic"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

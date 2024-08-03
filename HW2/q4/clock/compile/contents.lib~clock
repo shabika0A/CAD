@@ -1,0 +1,6 @@
+31
+~C 1 "../src/TestBench/clock_TB.vhd" 112 cfg_tb_clock
+~E 1 "../src/clock_with_alarm.vhd" 94 clock
+~A 1 "../src/clock_with_alarm.vhd" 31 Behavioral
+~E 1 "../src/TestBench/clock_TB.vhd" 4 tb_clock
+~A 1 "../src/TestBench/clock_TB.vhd" 7 tb

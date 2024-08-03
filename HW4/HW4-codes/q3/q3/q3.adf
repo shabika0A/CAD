@@ -1,0 +1,40 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=q3
+[Library]
+q3=.\q3\q3.lib
+[$LibMap$]
+q3=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/q3.vhd=-1
+/test.asdb=-1
+/test.awc=-1
+/test2.asdb=-1
+/test2.awc=-1
+TestBench/password_system_TB.vhd=-1
+TestBench/password_system_TB_runtest.do=-1
+[Files.Data]
+.\src\q3.vhd=VHDL Source Code
+.\src\test.asdb=Accelerated Waveform File
+.\src\test.awc=Accelerated Waveform Configuration
+.\src\test2.asdb=Accelerated Waveform File
+.\src\test2.awc=Accelerated Waveform Configuration
+.\src\TestBench\password_system_TB.vhd=VHDL Test Bench
+.\src\TestBench\password_system_TB_runtest.do=Macro
+[Groups]
+TestBench=1
+[HierarchyViewer]
+HierarchyInformation=password_system_tb|Behavioral|0
+ShowHide=ShowTopLevel
+Selected=

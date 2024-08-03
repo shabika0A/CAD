@@ -1,0 +1,3 @@
+i<>.\src\Convolution.vhd
+i<>.\src\TestBench\convolutionunit_TB.vhd
+i<>.\src\TestBench\convolutionunit2_TB.vhd

@@ -1,0 +1,7 @@
+56
+~C 1 "../src/TestBench/serialreceiver_TB.vhd" 138 cfg_tb_serialreceiver
+~E 1 "../src/serialReceiver.vhd" 5 SerialReceiver
+~A 1 "../src/serialReceiver.vhd" 15 Behavioral
+~E 1 "../src/TestBench/serialreceiver_TB.vhd" 56 serialreceiver_tb
+~E 1 "../src/TestBench/serialreceiver_TB.vhd" 139 tb_SerialReceiver
+~A 1 "../src/TestBench/serialreceiver_TB.vhd" 9 tb

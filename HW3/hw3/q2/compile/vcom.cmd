@@ -1,0 +1,1 @@
+-w -erf F:/uni/CAD/HW3/hw3/q2/compile/q2.erf -d F:/uni/CAD/HW3/hw3/q2/compile -s F:/uni/CAD/HW3/hw3/library.cfg -j F:/uni/CAD/HW3/hw3/q2/projlib.cfg -work q2 -dbg -e 100 -work q2 -2002 F:/uni/CAD/HW3/hw3/q2/src/1counter.vhd F:/uni/CAD/HW3/hw3/q2/src/TestBench/ones_counter_TB.vhd 

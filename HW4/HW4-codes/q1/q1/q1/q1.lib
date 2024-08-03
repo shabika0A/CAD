@@ -1,0 +1,47 @@
+timestamp=1717851426531
+
+[~A]
+ModifyID=7
+Version=74
+
+[~MFT]
+0=2|0q1.mgf|5414|615
+1=2|1q1.mgf|9076|6754
+3=0|3q1.mgf|551|0
+
+[full_adder_vhdl_code]
+A/gate_level=21|../src/1bit_adder.vhd|12|1*6754
+BinW64/gate_level=3*0
+I=0*2251
+I/gate_level=0*3306
+M=11|2|vef|1717851234786|../src/1bit_adder.vhd|0*1849*0x75e7bbfba6169f2bfeee5b21e6f5ff71b6cfb63d|0*2156*0x23b75c12e3e89f2ef000564498faa8c2
+M/gate_level=21|2|vef|1717851240248|../src/1bit_adder.vhd|0*2465*0x9625383144e87fc344766899bb745a24b47d11d5|0*2713*0x9065d32a2e40e13794b29a2731812845
+R=../src/1bit_adder.vhd|4
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|466a84f45871995a175b53f89b059f4780d05ca8d1c07f862082ee997436f7b19ca83bb8e317ccca7b1db97a278bc966
+Version/gate_level=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|a633945c70e5fa98a43eb9fefa985b7e3c48ed07988faf8750aa69055d6902f70fcfda335b6833f1b76629cd323780df
+
+[ripple_adder]
+A/behavioral=A/Behavioral 21|../src/q1.vhd|19|1*9076
+I=0*608
+I/behavioral=I/Behavioral 0*5414
+M=11|2|vef|1717850334949|../src/q1.vhd|0*212*0xeb838b51f7363daedc186f6b8e9dbcca01883d08|0*529*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1717851426530|../src/q1.vhd|0*814*0x14d4cc260056ef1e584ce88221e797532bcd6708|0*1413*0x9065d32a2e40e13794b29a2731812845
+R=../src/q1.vhd|5
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|9df1bfb1721224a95791cad832a5026ac704e6dd53e2e0e5074942570b0809389ec8b391a83144a8b1594cfabbe493b9
+Version/behavioral=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff44706a655dceb368b5a0abace5bc14cc5
+
+[tb_ripple_adder]
+A/behavior=21|../src/TestBench/full_adder_vhdl_code_TB.vhd|7|1*7585
+BinW64/behavior=3*551
+I=0*3992
+I/behavior=0*5158
+M=11|2|vef|1717851354834|../src/TestBench/full_adder_vhdl_code_TB.vhd|0*3667*0xbc4ecb2d8930c479260af9cfdd18ef832c662345|0*3879*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavior=21|2|vef|1717851385309|../src/TestBench/full_adder_vhdl_code_TB.vhd|0*4201*0x785f8c7e4bf2680a506edff31abe98e354c4735a|0*5033*0x9065d32a2e40e13794b29a2731812845
+R=../src/TestBench/full_adder_vhdl_code_TB.vhd|4
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|2d21e2b21ffcada97da13901b4fb34e10e80ebfd3a68e2c869527d41e72a5c66c148e8ad94f015e7aa4b634a99603088
+Version/behavior=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fce991311d016ddce6ddd0935181726cf
+
+[~U]
+full_adder_vhdl_code=11|0*1637|
+ripple_adder=Ripple_Adder 11|0*0|
+tb_ripple_adder=Tb_Ripple_Adder 11|0*3531|

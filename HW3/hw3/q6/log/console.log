@@ -1,0 +1,259 @@
+acom -dbg -e 100 -work q6 -2002  $dsn/src/serialReceiver.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd
+# Compile Entity "SerialReceiver"
+# Compile Architecture "Behavioral" of Entity "SerialReceiver"
+# Error: COMP96_0015: serialReceiver.vhd : (59, 4): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q6 -2002  $dsn/src/serialReceiver.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd
+# Compile Entity "SerialReceiver"
+# Compile Architecture "Behavioral" of Entity "SerialReceiver"
+# Error: COMP96_0078: serialReceiver.vhd : (50, 13): Unknown identifier "one_count".
+# Error: COMP96_0078: serialReceiver.vhd : (50, 26): Unknown identifier "one_count".
+# Error: COMP96_0133: serialReceiver.vhd : (50, 13): Cannot find object declaration.
+# Error: COMP96_0078: serialReceiver.vhd : (52, 13): Unknown identifier "zero_count".
+# Error: COMP96_0078: serialReceiver.vhd : (52, 27): Unknown identifier "zero_count".
+# Error: COMP96_0133: serialReceiver.vhd : (52, 13): Cannot find object declaration.
+# Error: COMP96_0078: serialReceiver.vhd : (57, 47): Unknown identifier "to_unsigned".
+# Error: COMP96_0078: serialReceiver.vhd : (57, 59): Unknown identifier "one_count".
+# Error: COMP96_0078: serialReceiver.vhd : (57, 80): Unknown identifier "to_unsigned".
+# Error: COMP96_0078: serialReceiver.vhd : (57, 92): Unknown identifier "zero_count".
+# Error: COMP96_0133: serialReceiver.vhd : (57, 80): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (57, 80): Prefix of index must be an array.
+# Error: COMP96_0133: serialReceiver.vhd : (57, 47): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (57, 47): Prefix of index must be an array.
+# Error: COMP96_0149: serialReceiver.vhd : (57, 43): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0078: serialReceiver.vhd : (59, 4): Unknown identifier "ghghstate".
+# Error: COMP96_0133: serialReceiver.vhd : (59, 4): Cannot find object declaration.
+# Compile failure 17 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q6 -2002  $dsn/src/serialReceiver.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd
+# Compile Entity "SerialReceiver"
+# Compile Architecture "Behavioral" of Entity "SerialReceiver"
+# Error: COMP96_0123: serialReceiver.vhd : (50, 13): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0123: serialReceiver.vhd : (52, 13): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0078: serialReceiver.vhd : (57, 47): Unknown identifier "to_unsigned".
+# Error: COMP96_0078: serialReceiver.vhd : (57, 80): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: serialReceiver.vhd : (57, 80): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (57, 80): Prefix of index must be an array.
+# Error: COMP96_0133: serialReceiver.vhd : (57, 47): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (57, 47): Prefix of index must be an array.
+# Error: COMP96_0149: serialReceiver.vhd : (57, 43): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0078: serialReceiver.vhd : (59, 4): Unknown identifier "ghghstate".
+# Error: COMP96_0133: serialReceiver.vhd : (59, 4): Cannot find object declaration.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q6 -2002  $dsn/src/serialReceiver.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd
+# Compile Entity "SerialReceiver"
+# Compile Architecture "Behavioral" of Entity "SerialReceiver"
+# Error: COMP96_0123: serialReceiver.vhd : (50, 13): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0123: serialReceiver.vhd : (52, 13): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0078: serialReceiver.vhd : (57, 47): Unknown identifier "to_unsigned".
+# Error: COMP96_0078: serialReceiver.vhd : (57, 80): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: serialReceiver.vhd : (57, 80): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (57, 80): Prefix of index must be an array.
+# Error: COMP96_0133: serialReceiver.vhd : (57, 47): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (57, 47): Prefix of index must be an array.
+# Error: COMP96_0149: serialReceiver.vhd : (57, 43): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0078: serialReceiver.vhd : (59, 4): Unknown identifier "ghghstate".
+# Error: COMP96_0133: serialReceiver.vhd : (59, 4): Cannot find object declaration.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q6 -2002  $dsn/src/serialReceiver.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd
+# Compile Entity "SerialReceiver"
+# Compile Architecture "Behavioral" of Entity "SerialReceiver"
+# Error: COMP96_0123: serialReceiver.vhd : (52, 13): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0123: serialReceiver.vhd : (54, 13): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0078: serialReceiver.vhd : (59, 47): Unknown identifier "to_unsigned".
+# Error: COMP96_0078: serialReceiver.vhd : (59, 80): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: serialReceiver.vhd : (59, 80): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (59, 80): Prefix of index must be an array.
+# Error: COMP96_0133: serialReceiver.vhd : (59, 47): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (59, 47): Prefix of index must be an array.
+# Error: COMP96_0149: serialReceiver.vhd : (59, 43): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0078: serialReceiver.vhd : (61, 4): Unknown identifier "ghghstate".
+# Error: COMP96_0133: serialReceiver.vhd : (61, 4): Cannot find object declaration.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work q6 -2002  $dsn/src/serialReceiver.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd
+# Compile Entity "SerialReceiver"
+# Compile Architecture "Behavioral" of Entity "SerialReceiver"
+# Error: COMP96_0123: serialReceiver.vhd : (52, 13): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0123: serialReceiver.vhd : (54, 13): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0078: serialReceiver.vhd : (59, 47): Unknown identifier "to_unsigned".
+# Error: COMP96_0078: serialReceiver.vhd : (59, 80): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: serialReceiver.vhd : (59, 80): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (59, 80): Prefix of index must be an array.
+# Error: COMP96_0133: serialReceiver.vhd : (59, 47): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (59, 47): Prefix of index must be an array.
+# Error: COMP96_0149: serialReceiver.vhd : (59, 43): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0078: serialReceiver.vhd : (61, 4): Unknown identifier "ghghstate".
+# Error: COMP96_0133: serialReceiver.vhd : (61, 4): Cannot find object declaration.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q6 -2002  $dsn/src/serialReceiver.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd
+# Compile Entity "SerialReceiver"
+# Compile Architecture "Behavioral" of Entity "SerialReceiver"
+# Error: COMP96_0123: serialReceiver.vhd : (52, 13): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0123: serialReceiver.vhd : (54, 13): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0078: serialReceiver.vhd : (59, 47): Unknown identifier "to_unsigned".
+# Error: COMP96_0078: serialReceiver.vhd : (59, 80): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: serialReceiver.vhd : (59, 80): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (59, 80): Prefix of index must be an array.
+# Error: COMP96_0133: serialReceiver.vhd : (59, 47): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (59, 47): Prefix of index must be an array.
+# Error: COMP96_0149: serialReceiver.vhd : (59, 43): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0078: serialReceiver.vhd : (61, 4): Unknown identifier "ghghstate".
+# Error: COMP96_0133: serialReceiver.vhd : (61, 4): Cannot find object declaration.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q6 -2002  $dsn/src/serialReceiver.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd
+# Compile Entity "SerialReceiver"
+# Compile Architecture "Behavioral" of Entity "SerialReceiver"
+# Error: COMP96_0078: serialReceiver.vhd : (59, 47): Unknown identifier "to_unsigned".
+# Error: COMP96_0078: serialReceiver.vhd : (59, 80): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: serialReceiver.vhd : (59, 80): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (59, 80): Prefix of index must be an array.
+# Error: COMP96_0133: serialReceiver.vhd : (59, 47): Cannot find object declaration.
+# Error: COMP96_0289: serialReceiver.vhd : (59, 47): Prefix of index must be an array.
+# Error: COMP96_0149: serialReceiver.vhd : (59, 43): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0078: serialReceiver.vhd : (61, 4): Unknown identifier "ghghstate".
+# Error: COMP96_0133: serialReceiver.vhd : (61, 4): Cannot find object declaration.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work q6 -2002  $dsn/src/serialReceiver.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd
+# Compile Entity "SerialReceiver"
+# Compile Architecture "Behavioral" of Entity "SerialReceiver"
+# Error: COMP96_0078: serialReceiver.vhd : (62, 4): Unknown identifier "ghghstate".
+# Error: COMP96_0133: serialReceiver.vhd : (62, 4): Cannot find object declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q6 -2002  $dsn/src/serialReceiver.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd
+# Compile Entity "SerialReceiver"
+# Compile Architecture "Behavioral" of Entity "SerialReceiver"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -dbg -e 100 -work q6 -2002  $dsn/src/serialReceiver.vhd $dsn/src/TestBench/serialreceiver_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd
+# Compile Entity "SerialReceiver"
+# Compile Architecture "Behavioral" of Entity "SerialReceiver"
+# File: F:/uni/CAD/HW3/hw3/q6/src/TestBench/serialreceiver_TB.vhd
+# Compile Entity "tb_SerialReceiver"
+# Compile Architecture "tb" of Entity "tb_SerialReceiver"
+# Error: COMP96_0019: TestBench/serialreceiver_TB.vhd : (22, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: TestBench/serialreceiver_TB.vhd : (22, 18): Design unit declaration expected.
+# Compile Configuration "cfg_tb_SerialReceiver"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim -O5 +access +r +m+tb_SerialReceiver tb_SerialReceiver tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'q6.serialreceiver' instantiated in architecture 'tb:tb_SerialReceiver' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'q6.serialreceiver' instantiated in architecture 'tb:tb_SerialReceiver' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'q6.serialreceiver' instantiated in architecture 'tb:tb_SerialReceiver' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'q6.serialreceiver' instantiated in architecture 'tb:tb_SerialReceiver' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'q6.serialreceiver' instantiated in architecture 'tb:tb_SerialReceiver' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -reorder -dbg -e 100 -work q6 -2002  $dsn/src/serialReceiver.vhd $dsn/src/TestBench/serialreceiver_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd
+# Compile Entity "SerialReceiver"
+# Compile Architecture "Behavioral" of Entity "SerialReceiver"
+# File: F:/uni/CAD/HW3/hw3/q6/src/TestBench/serialreceiver_TB.vhd
+# Compile Entity "tb_SerialReceiver"
+# Compile Architecture "tb" of Entity "tb_SerialReceiver"
+# Compile Configuration "cfg_tb_SerialReceiver"
+# Top-level unit(s) detected:
+# Entity => SerialReceiver
+# Configuration => cfg_tb_SerialReceiver
+# Error: COMP96_0019: TestBench/serialreceiver_TB.vhd : (22, 2): Keyword 'begin' expected.
+# Error: COMP96_0016: TestBench/serialreceiver_TB.vhd : (22, 18): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work q6 -2002  $dsn/src/TestBench/serialreceiver_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/TestBench/serialreceiver_TB.vhd
+# Compile Entity "tb_SerialReceiver"
+# Compile Architecture "tb" of Entity "tb_SerialReceiver"
+# Error: COMP96_0724: TestBench/serialreceiver_TB.vhd : (35, 33): ',' or ')' expected.
+# Error: COMP96_0015: TestBench/serialreceiver_TB.vhd : (36, 15): ';' expected.
+# Compile Configuration "cfg_tb_SerialReceiver"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q6 -2002  $dsn/src/TestBench/serialreceiver_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/TestBench/serialreceiver_TB.vhd
+# Compile Entity "tb_SerialReceiver"
+# Compile Architecture "tb" of Entity "tb_SerialReceiver"
+# Compile Configuration "cfg_tb_SerialReceiver"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -reorder -dbg -e 100 -work q6 -2002  $dsn/src/serialReceiver.vhd $dsn/src/TestBench/serialreceiver_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q6/src/serialReceiver.vhd
+# Compile Entity "SerialReceiver"
+# Compile Architecture "Behavioral" of Entity "SerialReceiver"
+# File: F:/uni/CAD/HW3/hw3/q6/src/TestBench/serialreceiver_TB.vhd
+# Compile Entity "tb_SerialReceiver"
+# Compile Architecture "tb" of Entity "tb_SerialReceiver"
+# Compile Configuration "cfg_tb_SerialReceiver"
+# Top-level unit(s) detected:
+# Configuration => cfg_tb_SerialReceiver
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+tb_SerialReceiver tb_SerialReceiver tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6611 kB (elbread=427 elab2=6040 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location F:\uni\CAD\HW3\hw3\q6\src\wave.asdb
+#  8:12 PM, Thursday, May 16, 2024
+#  Simulation has been initialized
+# VSIM: 8 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW3/hw3/q6/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+run 1000 ns
+# KERNEL: stopped at time: 2 us
+run 1000 ns
+# KERNEL: stopped at time: 3 us
+run 1000 ns
+# KERNEL: stopped at time: 4 us
+run 1000 ns
+# KERNEL: stopped at time: 5 us
+run 1000 ns
+# KERNEL: stopped at time: 6 us
+run 1000 ns
+# KERNEL: stopped at time: 7 us
+run 1000 ns
+# KERNEL: stopped at time: 8 us
+run 1000 ns
+# KERNEL: stopped at time: 9 us
+run 1000 ns
+# KERNEL: stopped at time: 10 us
+# Waveform file 'F:/uni/CAD/HW3/hw3/q6/src/test6_2.awc' connected to 'F:/uni/CAD/HW3/hw3/q6/src/test6_2.asdb'.
+# Adding file F:\uni\CAD\HW3\hw3\q6\src\test6_2.asdb ... Done
+# Adding file F:\uni\CAD\HW3\hw3\q6\src\test6_2.awc ... Done
+endsim
+# VSIM: Simulation has finished.
+# Design: Design "q3" has been set as active.

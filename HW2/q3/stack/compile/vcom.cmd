@@ -1,0 +1,1 @@
+-w -erf F:/uni/CAD/HW2/hw2_q3/q3/stack/compile/stack.erf -d F:/uni/CAD/HW2/hw2_q3/q3/stack/compile -s F:/uni/CAD/HW2/hw2_q3/q3/library.cfg -j F:/uni/CAD/HW2/hw2_q3/q3/stack/projlib.cfg -work stack -reorder -dbg -e 100 -work stack -2002 F:/uni/CAD/HW2/hw2_q3/q3/stack/src/stack.vhd F:/uni/CAD/HW2/hw2_q3/q3/stack/src/TestBench/stack_TB.vhd 

@@ -1,0 +1,7 @@
+7
+~E 1 "../src/1bit_adder.vhd" 4 full_adder_vhdl_code
+~A 1 "../src/1bit_adder.vhd" 12 gate_level
+~E 1 "../src/q1.vhd" 5 Ripple_Adder
+~A 1 "../src/q1.vhd" 19 Behavioral
+~E 1 "../src/TestBench/full_adder_vhdl_code_TB.vhd" 4 Tb_Ripple_Adder
+~A 1 "../src/TestBench/full_adder_vhdl_code_TB.vhd" 7 behavior

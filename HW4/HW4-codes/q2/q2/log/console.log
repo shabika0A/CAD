@@ -1,0 +1,49 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# Waveform file 'F:/uni/CAD/HW4/q2/q2/src/test.awc' connected to 'F:/uni/CAD/HW4/q2/q2/src/test.asdb'.
+acom -dbg -e 100 -work q2 -2002  $dsn/src/q2.vhd
+# File: F:/uni/CAD/HW4/q2/q2/src/q2.vhd
+# Compile Entity "test_conv_std_logic"
+# Compile Architecture "rtl" of Entity "test_conv_std_logic"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work q2 -2002  $dsn/src/q2.vhd $dsn/src/TestBench/test_conv_std_logic_TB.vhd
+# File: F:/uni/CAD/HW4/q2/q2/src/q2.vhd
+# Compile Entity "test_conv_std_logic"
+# Compile Architecture "rtl" of Entity "test_conv_std_logic"
+# File: F:/uni/CAD/HW4/q2/q2/src/TestBench/test_conv_std_logic_TB.vhd
+# Compile Entity "tb_test_conv_std_logic"
+# Compile Architecture "tb" of Entity "tb_test_conv_std_logic"
+# Compile Configuration "cfg_tb_test_conv_std_logic"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+tb_test_conv_std_logic tb_test_conv_std_logic tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5442 kB (elbread=427 elab2=4875 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location F:\uni\CAD\HW4\q2\q2\src\wave.asdb
+#  11:31 PM, Monday, June 17, 2024
+#  Simulation has been initialized
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW4/q2/q2/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW4/q2/q2/src/test.asdb'.
+endsim
+# VSIM: Simulation has finished.

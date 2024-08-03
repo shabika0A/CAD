@@ -1,0 +1,8 @@
+MESSAGE "File: F:/uni/CAD/HW3/hw3/q3/src/number_processor.vhd" 
+MESSAGE "Compile Entity "NumberOperations"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "NumberOperations"" 
+MESSAGE "File: F:/uni/CAD/HW3/hw3/q3/src/TestBench/numberoperations_TB.vhd" 
+MESSAGE "Compile Entity "tb_NumberOperations"" 
+MESSAGE "Compile Architecture "tb" of Entity "tb_NumberOperations"" 
+MESSAGE "Compile Configuration "cfg_tb_NumberOperations"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

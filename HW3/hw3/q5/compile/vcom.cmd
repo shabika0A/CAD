@@ -1,0 +1,1 @@
+-w -erf F:/uni/CAD/HW3/hw3/q5/compile/q5.erf -d F:/uni/CAD/HW3/hw3/q5/compile -s F:/uni/CAD/HW3/hw3/library.cfg -j F:/uni/CAD/HW3/hw3/q5/projlib.cfg -work q5 -dbg -e 100 -work q5 -2002 F:/uni/CAD/HW3/hw3/q5/src/Convolution.vhd F:/uni/CAD/HW3/hw3/q5/src/TestBench/convolutionunit_TB.vhd F:/uni/CAD/HW3/hw3/q5/src/TestBench/convolutionunit2_TB.vhd 

@@ -1,0 +1,2 @@
+.\src\serialReceiver.vhd
+.\src\TestBench\serialreceiver_TB.vhd

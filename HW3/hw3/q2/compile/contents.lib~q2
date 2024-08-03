@@ -1,0 +1,6 @@
+8
+~C 1 "../src/TestBench/ones_counter_TB.vhd" 109 cfg_tb_ones_counter
+~E 1 "../src/1counter.vhd" 4 ones_counter
+~A 1 "../src/1counter.vhd" 11 Behavioral
+~E 1 "../src/TestBench/ones_counter_TB.vhd" 50 tb_ones_counter
+~A 1 "../src/TestBench/ones_counter_TB.vhd" 53 tb

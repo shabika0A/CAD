@@ -1,0 +1,4 @@
+MESSAGE "File: F:/uni/CAD/HW4/q1_2/q1/src/q1.vhd" 
+MESSAGE "Compile Entity "Ripple_Adder"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "Ripple_Adder"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

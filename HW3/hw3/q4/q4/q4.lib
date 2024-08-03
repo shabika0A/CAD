@@ -1,0 +1,45 @@
+timestamp=1715865855254
+
+[~A]
+ModifyID=21
+Version=74
+
+[~MFT]
+0=8|0q4.mgf|22089|17651
+1=2|1q4.mgf|37682|35252
+3=2|3q4.mgf|13280|12244
+
+[cfg_tb_functioncalculator]
+Configures=tb_FunctionCalculator.tb
+E=1*37297
+I=0*21174
+M=2|2|vef|1715865754680|../src/TestBench/functioncalculator_TB.vhd|0*20768*0x34612005d6cb0c6597d2e39249ef9b7ce2310dc6|0*21029*0x9065d32a2e40e13794b29a2731812845
+R=../src/TestBench/functioncalculator_TB.vhd|127
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|0671b64b3bd99ea6f39d9610abfc804514d4548710f986ad174031ee52602a6ebefa6754c337163be009dfbb7f1dc35e29a8fac1da2ff59980da03c20dbdac37
+
+[functioncalculator]
+A/behavioral=A/Behavioral 21|../src/functions.vhd|14|1*37682
+BinW64/behavioral=3*13280
+I=0*16808
+I/behavioral=I/Behavioral 0*22089
+M=11|2|vef|1715864747307|../src/functions.vhd|0*16357*0xc1bf11c7b72910590134e30960a6f1b7839f4665|0*16716*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1715865855207|../src/functions.vhd|0*21228*0xff90207106f8e6488f5ca5542e387a0843441863|0*21983*0x9065d32a2e40e13794b29a2731812845
+R=../src/functions.vhd|7
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|1bf48d58879990db395a0a873552638f86c34dbf466219b5c13fe0170b5dfcd842928b83ff1f5730f32a3d5cab9b3d15
+Version/behavioral=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff48817d97227560c16d964b0cd0a4d3d96
+
+[tb_functioncalculator]
+A/tb=21|../src/TestBench/functioncalculator_TB.vhd|58|1*35252
+BinW64/tb=3*12244
+I=0*3612
+I/tb=0*20507
+M=11|2|vef|1715862309760|../src/TestBench/functioncalculator_TB.vhd|0*3267*0x7288479e4573d446e866c3534a2105699a37c28c|0*3495*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb=21|2|vef|1715865754656|../src/TestBench/functioncalculator_TB.vhd|0*19317*0xde291d634946c8b5984e457e7ec282ff62f25cb3|0*20384*0x9065d32a2e40e13794b29a2731812845
+R=../src/TestBench/functioncalculator_TB.vhd|55
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|962f094e0c483dddc4f2ed13b5db682109644f3a847e4e23e30aad8f05fa701663a6a73b921b599672afb7640e1e4349
+Version/tb=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|8db8692708dc0985d408d2497dbc95fa63e01527787897b4b22f61cfbeae322f
+
+[~U]
+cfg_tb_functioncalculator=cfg_tb_FunctionCalculator 2||
+functioncalculator=FunctionCalculator 11|0*16139|
+tb_functioncalculator=tb_FunctionCalculator 11|0*3119|

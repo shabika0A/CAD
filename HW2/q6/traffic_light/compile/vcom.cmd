@@ -1,0 +1,1 @@
+-w -erf F:/uni/CAD/HW2/q6/traffic_light/compile/traffic_light.erf -d F:/uni/CAD/HW2/q6/traffic_light/compile -s F:/uni/CAD/HW2/q6/library.cfg -j F:/uni/CAD/HW2/q6/traffic_light/projlib.cfg -work traffic_light -dbg -e 100 -work traffic_light -2002 F:/uni/CAD/HW2/q6/traffic_light/src/traffic_light.vhd 

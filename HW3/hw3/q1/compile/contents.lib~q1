@@ -1,0 +1,6 @@
+21
+~E 1 "../src/binaryConverter.vhd" 7 binary_to_unary
+~A 1 "../src/binaryConverter.vhd" 14 Behavioral
+~C 1 "../src/TestBench/binary_to_unary_TB.vhd" 107 cfg_tb_binary_to_unary
+~E 1 "../src/TestBench/binary_to_unary_TB.vhd" 53 tb_binary_to_unary
+~A 1 "../src/TestBench/binary_to_unary_TB.vhd" 56 tb

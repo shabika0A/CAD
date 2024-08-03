@@ -1,0 +1,8 @@
+MESSAGE "File: F:/uni/CAD/HW3/hw3/q2/src/1counter.vhd" 
+MESSAGE "Compile Entity "ones_counter"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "ones_counter"" 
+MESSAGE "File: F:/uni/CAD/HW3/hw3/q2/src/TestBench/ones_counter_TB.vhd" 
+MESSAGE "Compile Entity "tb_ones_counter"" 
+MESSAGE "Compile Architecture "tb" of Entity "tb_ones_counter"" 
+MESSAGE "Compile Configuration "cfg_tb_ones_counter"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]" 

@@ -1,0 +1,7 @@
+14
+~C 1 "../src/TestBench/complex_operations_TB.vhd" 100 cfg_tb_complex_operations
+~E 1 "../src/complex_operations.vhd" 4 complex_operations
+~A 1 "../src/complex_operations.vhd" 13 behavioral
+~E 1 "../src/TestBench/complex_operations_TB.vhd" 6 complex_operations_tb
+~E 1 "../src/TestBench/complex_operations_TB.vhd" 74 tb_complex_operations
+~A 1 "../src/TestBench/complex_operations_TB.vhd" 7 tb

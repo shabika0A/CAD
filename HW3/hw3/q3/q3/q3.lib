@@ -1,0 +1,45 @@
+timestamp=1715928495469
+
+[~A]
+ModifyID=27
+Version=74
+
+[~MFT]
+0=6|0q3.mgf|32371|25769
+1=6|1q3.mgf|76578|71315
+3=4|3q3.mgf|19638|18054
+
+[cfg_tb_numberoperations]
+Configures=tb_NumberOperations.tb
+E=1*76578
+I=0*32371
+M=2|2|vef|1715928495452|../src/TestBench/numberoperations_TB.vhd|0*30276*0x0eb5c67063139b569cb78d4611809fcb8229fd2b|0*30525*0x9065d32a2e40e13794b29a2731812845
+R=../src/TestBench/numberoperations_TB.vhd|110
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|abc055371a1e267aeaea3d68e87a113922790c874d013cc786d24531b1822eee26527262ddaa47cb266f3a3c4d9b973a799f496602782e09361082ea8ed68d2d
+
+[numberoperations]
+A/behavioral=A/Behavioral 21|../src/number_processor.vhd|14|1*71315
+BinW64/behavioral=3*18054
+I=0*24264
+I/behavioral=I/Behavioral 0*31854
+M=11|2|vef|1715911691687|../src/number_processor.vhd|0*23675*0x8ab397babde14e0bc87e6a0298d703c093b1cc99|0*24167*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1715928495400|../src/number_processor.vhd|0*20445*0xb51959eec2632a8669b2b1baa22c022957d26764|0*21863*0x9065d32a2e40e13794b29a2731812845
+R=../src/number_processor.vhd|5
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|ac0e42d9dfbd7062eab173b7b8b144dbc24dd95da9003e098c610af54a8ce116a5bdab4c555fca1a6abea50bfb95b01b
+Version/behavioral=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4fbf46bdac7d03ebe35ee5fbc3cad5f72
+
+[tb_numberoperations]
+A/tb=21|../src/TestBench/numberoperations_TB.vhd|7|1*73514
+BinW64/tb=3*19638
+I=0*3479
+I/tb=0*32115
+M=11|2|vef|1715880698852|../src/TestBench/numberoperations_TB.vhd|0*3146*0x083cac1b65992e4da8007fcf531453469f608257|0*3366*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb=21|2|vef|1715928495445|../src/TestBench/numberoperations_TB.vhd|0*27650*0x3ff4f57c08fdcdea81bccf29fdc36b6ccdc052e8|0*29901*0x9065d32a2e40e13794b29a2731812845
+R=../src/TestBench/numberoperations_TB.vhd|4
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|1c99858cb713c49ec2b118771aaa3ccd1b6ae90f401b030666cfe874deb6adafc0857064392b182a7d29bd3333b68f71
+Version/tb=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|8db8692708dc0985d408d2497dbc95fa2fde6fa6bb5d533ecdb4050e7d80d7b2
+
+[~U]
+cfg_tb_numberoperations=cfg_tb_NumberOperations 2||
+numberoperations=NumberOperations 11|0*23406|
+tb_numberoperations=tb_NumberOperations 11|0*3002|

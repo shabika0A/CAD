@@ -1,0 +1,53 @@
+timestamp=1715877733118
+
+[~A]
+ModifyID=56
+Version=74
+
+[~MFT]
+0=6|0q6.mgf|47349|40953
+1=6|1q6.mgf|86003|81843
+3=4|3q6.mgf|40784|38679
+
+[cfg_tb_serialreceiver]
+Configures=tb_SerialReceiver.tb
+E=1*86003
+I=0*47349
+M=2|2|vef|1715877733073|../src/TestBench/serialreceiver_TB.vhd|0*43756*0xad2a05010802ab379e6a074ff3569c0cb17525b3|0*43993*0x9065d32a2e40e13794b29a2731812845
+R=../src/TestBench/serialreceiver_TB.vhd|138
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|a3cd33e1a4f1879741a029c6e3c33910ab3e2d7734b06705926adb27295510f1b1f6c134df1ad8c92f944a598efdc18e
+
+[serialreceiver]
+A/behavioral=A/Behavioral 21|../src/serialReceiver.vhd|15|1*81843
+BinW64/behavioral=3*38679
+I=0*42145
+I/behavioral=I/Behavioral 0*46795
+M=11|2|vef|1715877546516|../src/serialReceiver.vhd|0*41670*0x1facdb72e308496c713bc7e636d9c6a2ba24d3a6|0*42052*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1715877733012|../src/serialReceiver.vhd|0*42393*0xb4d37f8479f7ffecc0abbc974d41bcbce08c6061|0*43390*0x9065d32a2e40e13794b29a2731812845
+R=../src/serialReceiver.vhd|5
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|8c5848e6b83bb648656e7bac3ae31a6bb598b766415ea8bbf0380e7f116afdfb4dd6a65ece9b779fdf62d8ebca048ff5
+Version/behavioral=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff44d2afccf28fb3e85433ef2fc01d3cb84
+
+[serialreceiver_tb]
+I=0*2435
+M=11|2|vef|1715867421549|../src/TestBench/serialreceiver_TB.vhd|0*2113*0xd03f5db1b296d495fe6143c643e184823daab87b|0*2326*0x23b75c12e3e89f2ef000564498faa8c2
+R=../src/TestBench/serialreceiver_TB.vhd|56
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|8c5848e6b83bb648656e7bac3ae31a6b77c35119f7cb6e3629a63fec41dcd78dcce900bb4a4f841a12794ba000078dd4
+
+[tb_serialreceiver]
+A/tb=21|../src/TestBench/serialreceiver_TB.vhd|9|1*83702
+BinW64/tb=3*40784
+I=0*7505
+I/tb=0*47054
+M=11|2|vef|1715868660974|../src/TestBench/serialreceiver_TB.vhd|0*7129*0xf54af347ce1f41ab0b7d847677ad3be7f3835016|0*7396*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb=21|2|vef|1715877733060|../src/TestBench/serialreceiver_TB.vhd|0*44485*0x9f1c4853ff211a5c2452b723d1d4a22004b54374|0*46335*0x9065d32a2e40e13794b29a2731812845
+R=../src/TestBench/serialreceiver_TB.vhd|139
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|a1e113c87b6157ec933a8b5c97ea92d89e4508e1a3b7b2b530fbb32e53c6a46d0c4d42eae6403cdf73259882a18cb30f
+Version/tb=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|8db8692708dc0985d408d2497dbc95fa9c3a9003c5e3b31e1d27f0eab337e5f1
+
+[~U]
+cfg_tb_serialreceiver=cfg_tb_SerialReceiver 2||
+serialreceiver=SerialReceiver 11|0*41430|
+serialreceiver_tb=11|0*1973|
+tb_serialreceiver=tb_SerialReceiver 11|0*6989|
+

@@ -1,0 +1,36 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=complex_operations
+[Library]
+complex_operations=.\complex_operations\complex_operations.lib
+[$LibMap$]
+complex_operations=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/complex_operations.vhd=-1
+/waveform.asdb=-1
+/waveform.awc=-1
+TestBench/complex_operations_TB.vhd=-1
+TestBench/complex_operations_TB_runtest.do=-1
+[Files.Data]
+.\src\complex_operations.vhd=VHDL Source Code
+.\src\waveform.asdb=Accelerated Waveform File
+.\src\waveform.awc=Accelerated Waveform Configuration
+.\src\TestBench\complex_operations_TB.vhd=VHDL Test Bench
+.\src\TestBench\complex_operations_TB_runtest.do=Macro
+[Groups]
+TestBench=1
+[HierarchyViewer]
+HierarchyInformation=complex_operations|behavioral|0 tb_complex_operations|tb|0
+ShowHide=ShowTopLevel
+Selected=

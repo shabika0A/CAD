@@ -1,0 +1,4 @@
+MESSAGE "File: F:/uni/CAD/HW2/q6/traffic_light/src/traffic_light.vhd" 
+MESSAGE "Compile Entity "traffic_light"" 
+MESSAGE "Compile Architecture "behavior" of Entity "traffic_light"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

@@ -1,0 +1,45 @@
+timestamp=1715613347106
+
+[~A]
+ModifyID=8
+Version=74
+
+[~MFT]
+0=16|0q2.mgf|7706|3856
+1=6|1q2.mgf|9300|6698
+3=4|3q2.mgf|2586|1764
+
+[cfg_tb_ones_counter]
+Configures=tb_ones_counter.tb
+E=1*9300
+I=0*7706
+M=2|2|vef|1715613347081|../src/TestBench/ones_counter_TB.vhd|0*7354*0xf0f000340c836a857903a0c89eb59a03321621b7|0*7579*0x9065d32a2e40e13794b29a2731812845
+R=../src/TestBench/ones_counter_TB.vhd|109
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|346553a4401af141d260928079e5e0c84b3f2d9b1f0a003eae1cf49b671a546c9d0c54692fd0532a5a53dce6193b91ae
+
+[ones_counter]
+A/behavioral=A/Behavioral 21|../src/1counter.vhd|11|1*6698
+BinW64/behavioral=3*1764
+I=0*543
+I/behavioral=I/Behavioral 0*5952
+M=11|2|vef|1715612476122|../src/1counter.vhd|0*212*0x9465b2566b5e1ca3b7b9af27c0d9c15770e4b90a|0*458*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1715613347021|../src/1counter.vhd|0*5259*0x3706b236b59a37ffaa33a3e56acfd9311069df5f|0*5853*0x9065d32a2e40e13794b29a2731812845
+R=../src/1counter.vhd|4
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|7e076da192db344cedeaeabceb738473a9e8cea00fd4b9328bd77e60d8b8f74e31bec50b688f3a8c10d35ec4c79b9a03
+Version/behavioral=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4eade0e7c4139fde523357c6295950b6f
+
+[tb_ones_counter]
+A/tb=21|../src/TestBench/ones_counter_TB.vhd|53|1*7631
+BinW64/tb=3*2586
+I=0*2105
+I/tb=0*7105
+M=11|2|vef|1715612745564|../src/TestBench/ones_counter_TB.vhd|0*1796*0x0ce36ad691af4c7bcda6ce38499fffd164d35a79|0*2000*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb=21|2|vef|1715613347064|../src/TestBench/ones_counter_TB.vhd|0*6169*0x1a69b632d3474b99547ca383fcc2578ed8a6dd78|0*6994*0x9065d32a2e40e13794b29a2731812845
+R=../src/TestBench/ones_counter_TB.vhd|50
+Version=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|5d615376d65499718a1c1a43e217be86f513fcc0beead0be9e061e85c530defe647c1d7a33595f2fe69392a18044edcb
+Version/tb=13.0.375.8320 (Windows64)|00000004789cd34d494a0700030f015b|8db8692708dc0985d408d2497dbc95fa066a16525cfee25ab73261094ac105d0
+
+[~U]
+cfg_tb_ones_counter=2||
+ones_counter=11|0*0|
+tb_ones_counter=11|0*1660|

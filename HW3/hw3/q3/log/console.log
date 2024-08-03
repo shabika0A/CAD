@@ -1,0 +1,15 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'F:/uni/CAD/HW3/hw3/q3/src/test3.awc' connected to 'F:/uni/CAD/HW3/hw3/q3/src/test3.asdb'.
+acom -dbg -e 100 -work q3 -2002  $dsn/src/number_processor.vhd $dsn/src/TestBench/numberoperations_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q3/src/number_processor.vhd
+# Compile Entity "NumberOperations"
+# Compile Architecture "Behavioral" of Entity "NumberOperations"
+# File: F:/uni/CAD/HW3/hw3/q3/src/TestBench/numberoperations_TB.vhd
+# Compile Entity "tb_NumberOperations"
+# Compile Architecture "tb" of Entity "tb_NumberOperations"
+# Compile Configuration "cfg_tb_NumberOperations"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# Design: Design "q5" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

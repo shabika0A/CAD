@@ -1,0 +1,73 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=q2
+[Library]
+q2=.\q2\q2.lib
+[$LibMap$]
+q2=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[folders]
+name0=ALINT-PRO Workspaces
+directory0=F:\uni\CAD\HW4\q2\q2\
+extension0=alintws
+name1=Coverage Databases
+directory1=F:\uni\CAD\HW4\q2\q2\
+extension1=acdb
+name2=Dll Libraries
+directory2=F:\uni\CAD\HW4\q2\q2\
+extension2=dll
+name3=Event Lists
+directory3=F:\uni\CAD\HW4\q2\q2\
+extension3=lst
+name4=HTML Files
+directory4=F:\uni\CAD\HW4\q2\q2\
+extension4=htm;html
+name5=Log Files
+directory5=F:\uni\CAD\HW4\q2\q2\
+extension5=log;htm;xml;txt
+name6=Matlab/Simulink Files
+directory6=F:\uni\CAD\HW4\q2\
+extension6=m;mdl;slx
+name7=Memory Files
+directory7=F:\uni\CAD\HW4\q2\q2\
+extension7=mem;mif;hex
+name8=PDF Files
+directory8=F:\uni\CAD\HW4\q2\q2\
+extension8=pdf
+name9=Profiler Databases
+directory9=F:\uni\CAD\HW4\q2\q2\
+extension9=tbp
+name10=Script Files
+directory10=F:\uni\CAD\HW4\q2\q2\
+extension10=do;tcl;pl
+name11=Waveform Files
+directory11=F:\uni\CAD\HW4\q2\q2\
+extension11=asdb;awc;asdbc;asdbe
+[Files]
+/q2.vhd=-1
+/test.asdb=-1
+/test.awc=-1
+TestBench/test_conv_std_logic_TB.vhd=-1
+TestBench/test_conv_std_logic_TB_runtest.do=-1
+[Files.Data]
+.\src\q2.vhd=VHDL Source Code
+.\src\test.asdb=Accelerated Waveform File
+.\src\test.awc=Accelerated Waveform Configuration
+.\src\TestBench\test_conv_std_logic_TB.vhd=VHDL Test Bench
+.\src\TestBench\test_conv_std_logic_TB_runtest.do=Macro
+[Groups]
+TestBench=1
+[HierarchyViewer]
+HierarchyInformation=tb_test_conv_std_logic|tb|0
+ShowHide=ShowTopLevel
+Selected=

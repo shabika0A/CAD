@@ -1,0 +1,9 @@
+49
+~C 1 "../src/TestBench/q2_TB.vhd" 261 cfg_tb_q2
+~E 1 "../src/q2.vhd" 95 q2
+~A 1 "../src/q2.vhd" 108 fifo_buffer
+~E 1 "../src/TestBench/q2_TB.vhd" 6 q2_tb
+~A 1 "../src/TestBench/q2_TB.vhd" 9 TB_ARCHITECTURE
+~E 1 "../src/TestBench/q2_TB.vhd" 110 tb_q2
+~A 1 "../src/TestBench/q2_TB.vhd" 113 tb
+~C 1 "../src/TestBench/q2_TB.vhd" 92 testbench_for_q2

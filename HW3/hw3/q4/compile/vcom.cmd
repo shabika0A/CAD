@@ -1,0 +1,1 @@
+-w -erf F:/uni/CAD/HW3/hw3/q4/compile/q4.erf -d F:/uni/CAD/HW3/hw3/q4/compile -s F:/uni/CAD/HW3/hw3/library.cfg -j F:/uni/CAD/HW3/hw3/q4/projlib.cfg -work q4 -dbg -e 100 -work q4 -2002 F:/uni/CAD/HW3/hw3/q4/src/functions.vhd 

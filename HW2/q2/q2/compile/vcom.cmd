@@ -1,0 +1,1 @@
+-w -erf F:/uni/CAD/HW2/hw2_q2/q2/compile/q2.erf -d F:/uni/CAD/HW2/hw2_q2/q2/compile -s F:/uni/CAD/HW2/hw2_q2/library.cfg -j F:/uni/CAD/HW2/hw2_q2/q2/projlib.cfg -work q2 -reorder -dbg -e 100 -work q2 -2002 F:/uni/CAD/HW2/hw2_q2/q2/src/q2.vhd F:/uni/CAD/HW2/hw2_q2/q2/src/TestBench/q2_TB.vhd 

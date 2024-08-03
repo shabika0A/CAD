@@ -1,0 +1,1 @@
+-w -erf F:/uni/CAD/HW3/hw3/q3/compile/q3.erf -d F:/uni/CAD/HW3/hw3/q3/compile -s F:/uni/CAD/HW3/hw3/library.cfg -j F:/uni/CAD/HW3/hw3/q3/projlib.cfg -work q3 -dbg -e 100 -work q3 -2002 F:/uni/CAD/HW3/hw3/q3/src/number_processor.vhd F:/uni/CAD/HW3/hw3/q3/src/TestBench/numberoperations_TB.vhd 

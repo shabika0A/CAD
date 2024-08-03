@@ -1,0 +1,8 @@
+MESSAGE "File: F:/uni/CAD/HW3/hw3/q1/src/binaryConverter.vhd" 
+MESSAGE "Compile Entity "binary_to_unary"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "binary_to_unary"" 
+MESSAGE "File: F:/uni/CAD/HW3/hw3/q1/src/TestBench/binary_to_unary_TB.vhd" 
+MESSAGE "Compile Entity "tb_binary_to_unary"" 
+MESSAGE "Compile Architecture "tb" of Entity "tb_binary_to_unary"" 
+MESSAGE "Compile Configuration "cfg_tb_binary_to_unary"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

@@ -1,0 +1,820 @@
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0029: functions.vhd : (22, 43): Expression expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  79.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0078: functions.vhd : (19, 51): Unknown identifier "ceil".
+# Error: COMP96_0133: functions.vhd : (19, 51): Cannot find object declaration.
+# Error: COMP96_0289: functions.vhd : (19, 51): Prefix of index must be an array.
+# Error: COMP96_0149: functions.vhd : (19, 51): Explicit type conversions are allowed between closely related types only.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd $dsn/src/TestBench/functioncalculator_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# File: F:/uni/CAD/HW3/hw3/q4/src/TestBench/functioncalculator_TB.vhd
+# Compile Entity "tb_FunctionCalculator"
+# Compile Architecture "tb" of Entity "tb_FunctionCalculator"
+# Error: COMP96_0331: TestBench/functioncalculator_TB.vhd : (92, 9): Syntax error in expression.
+# Error: COMP96_0015: TestBench/functioncalculator_TB.vhd : (92, 18): ')' expected.
+# Error: COMP96_0015: TestBench/functioncalculator_TB.vhd : (92, 19): ';' expected.
+# Error: COMP96_0331: TestBench/functioncalculator_TB.vhd : (94, 9): Syntax error in expression.
+# Error: COMP96_0015: TestBench/functioncalculator_TB.vhd : (94, 18): ')' expected.
+# Error: COMP96_0015: TestBench/functioncalculator_TB.vhd : (94, 19): ';' expected.
+# Compile Configuration "cfg_tb_FunctionCalculator"
+# Error: COMP96_0209: TestBench/functioncalculator_TB.vhd : (111, 9): Unknown architecture name used in configuration declaration.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/TestBench/functioncalculator_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/TestBench/functioncalculator_TB.vhd
+# Compile Entity "tb_FunctionCalculator"
+# Compile Architecture "tb" of Entity "tb_FunctionCalculator"
+# Error: COMP96_0331: TestBench/functioncalculator_TB.vhd : (94, 9): Syntax error in expression.
+# Error: COMP96_0015: TestBench/functioncalculator_TB.vhd : (94, 18): ')' expected.
+# Error: COMP96_0015: TestBench/functioncalculator_TB.vhd : (94, 19): ';' expected.
+# Compile Configuration "cfg_tb_FunctionCalculator"
+# Error: COMP96_0209: TestBench/functioncalculator_TB.vhd : (111, 9): Unknown architecture name used in configuration declaration.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  79.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/TestBench/functioncalculator_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/TestBench/functioncalculator_TB.vhd
+# Compile Entity "tb_FunctionCalculator"
+# Compile Architecture "tb" of Entity "tb_FunctionCalculator"
+# Compile Configuration "cfg_tb_FunctionCalculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd $dsn/src/TestBench/functioncalculator_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# File: F:/uni/CAD/HW3/hw3/q4/src/TestBench/functioncalculator_TB.vhd
+# Compile Entity "tb_FunctionCalculator"
+# Compile Architecture "tb" of Entity "tb_FunctionCalculator"
+# Compile Configuration "cfg_tb_FunctionCalculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+tb_FunctionCalculator tb_FunctionCalculator tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5442 kB (elbread=427 elab2=4875 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\uni\CAD\HW3\hw3\q4\src\wave.asdb
+#  3:57 PM, Thursday, May 16, 2024
+#  Simulation has been initialized
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW3/hw3/q4/src/wave.asdb'.
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__16.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__16.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+acom -dbg -e 100 -work q4 -2002  $dsn/src/TestBench/functioncalculator_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/TestBench/functioncalculator_TB.vhd
+# Compile Entity "tb_FunctionCalculator"
+# Compile Architecture "tb" of Entity "tb_FunctionCalculator"
+# Compile Configuration "cfg_tb_FunctionCalculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd $dsn/src/TestBench/functioncalculator_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# File: F:/uni/CAD/HW3/hw3/q4/src/TestBench/functioncalculator_TB.vhd
+# Compile Entity "tb_FunctionCalculator"
+# Compile Architecture "tb" of Entity "tb_FunctionCalculator"
+# Compile Configuration "cfg_tb_FunctionCalculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+tb_FunctionCalculator tb_FunctionCalculator tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5443 kB (elbread=427 elab2=4875 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location F:\uni\CAD\HW3\hw3\q4\src\wave.asdb
+#  3:59 PM, Thursday, May 16, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW3/hw3/q4/src/wave.asdb'.
+# VSIM: 6 object(s) traced.
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__16.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__16.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+endsim
+# VSIM: Simulation has finished.
+acom -reorder -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd $dsn/src/TestBench/functioncalculator_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# File: F:/uni/CAD/HW3/hw3/q4/src/TestBench/functioncalculator_TB.vhd
+# Compile Entity "tb_FunctionCalculator"
+# Compile Architecture "tb" of Entity "tb_FunctionCalculator"
+# Compile Configuration "cfg_tb_FunctionCalculator"
+# Top-level unit(s) detected:
+# Configuration => cfg_tb_FunctionCalculator
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd $dsn/src/TestBench/functioncalculator_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# File: F:/uni/CAD/HW3/hw3/q4/src/TestBench/functioncalculator_TB.vhd
+# Compile Entity "tb_FunctionCalculator"
+# Compile Architecture "tb" of Entity "tb_FunctionCalculator"
+# Compile Configuration "cfg_tb_FunctionCalculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim -O5 +access +r +m+tb_FunctionCalculator tb_FunctionCalculator tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5444 kB (elbread=427 elab2=4876 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location F:\uni\CAD\HW3\hw3\q4\src\wave.asdb
+#  4:00 PM, Thursday, May 16, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW3/hw3/q4/src/wave.asdb'.
+# VSIM: 6 object(s) traced.
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__16.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__16.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (29, 15): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (32, 15): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (32, 23): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (32, 23): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0071: functions.vhd : (31, 20): Operator ">" is not defined for such operands.
+# Error: COMP96_0077: functions.vhd : (31, 12): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0651: functions.vhd : (32, 25): Operator "/" returning 'STD_LOGIC_VECTOR' is not defined for such operands.
+# Error: COMP96_0077: functions.vhd : (32, 17): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: functions.vhd : (35, 11): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'STD_LOGIC_VECTOR'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0071: functions.vhd : (31, 20): Operator ">" is not defined for such operands.
+# Error: COMP96_0077: functions.vhd : (31, 12): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0651: functions.vhd : (32, 25): Operator "/" returning 'STD_LOGIC_VECTOR' is not defined for such operands.
+# Error: COMP96_0077: functions.vhd : (32, 17): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: functions.vhd : (35, 11): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'STD_LOGIC_VECTOR'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0617: functions.vhd : (30, 12): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'INTEGER'.
+# Error: COMP96_0617: functions.vhd : (35, 11): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'STD_LOGIC_VECTOR'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0617: functions.vhd : (35, 11): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'STD_LOGIC_VECTOR'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0617: functions.vhd : (38, 11): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0617: functions.vhd : (38, 11): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'STD_LOGIC_VECTOR'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0305: functions.vhd : (38, 23): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0093: functions.vhd : (38, 23): The type of a parameter in a subprogram call does not match to a formal parameter of the "ieee.NUMERIC_STD.TO_UNSIGNED(ARG : NATURAL; SIZE : NATURAL) return UNSIGNED" subprogram.
+# Error: COMP96_0617: functions.vhd : (38, 11): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'STD_LOGIC_VECTOR'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0617: functions.vhd : (38, 11): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'STD_LOGIC_VECTOR'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd $dsn/src/TestBench/functioncalculator_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# File: F:/uni/CAD/HW3/hw3/q4/src/TestBench/functioncalculator_TB.vhd
+# Compile Entity "tb_FunctionCalculator"
+# Compile Architecture "tb" of Entity "tb_FunctionCalculator"
+# Compile Configuration "cfg_tb_FunctionCalculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim -O5 +access +r +m+tb_FunctionCalculator tb_FunctionCalculator tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5445 kB (elbread=427 elab2=4877 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location F:\uni\CAD\HW3\hw3\q4\src\wave.asdb
+#  4:22 PM, Thursday, May 16, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW3/hw3/q4/src/wave.asdb'.
+# VSIM: 6 object(s) traced.
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__16.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__16.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0019: functions.vhd : (40, 9): Keyword 'if' expected.
+# Error: COMP96_0015: functions.vhd : (40, 9): ';' expected.
+# Error: COMP96_0019: functions.vhd : (41, 5): Keyword 'process' expected.
+# Error: COMP96_0019: functions.vhd : (41, 28): Keyword 'end' expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -reorder -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd $dsn/src/TestBench/functioncalculator_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# File: F:/uni/CAD/HW3/hw3/q4/src/TestBench/functioncalculator_TB.vhd
+# Compile Entity "tb_FunctionCalculator"
+# Compile Architecture "tb" of Entity "tb_FunctionCalculator"
+# Compile Configuration "cfg_tb_FunctionCalculator"
+# Top-level unit(s) detected:
+# Configuration => cfg_tb_FunctionCalculator
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+tb_FunctionCalculator tb_FunctionCalculator tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5445 kB (elbread=427 elab2=4878 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location F:\uni\CAD\HW3\hw3\q4\src\wave.asdb
+#  4:24 PM, Thursday, May 16, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW3/hw3/q4/src/wave.asdb'.
+# VSIM: 6 object(s) traced.
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__16.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__16.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__16.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (39, 20): ';' expected.
+# Error: COMP96_0015: functions.vhd : (44, 12): ';' expected.
+# Error: COMP96_0019: functions.vhd : (44, 16): Keyword 'end' expected.
+# Error: COMP96_0019: functions.vhd : (47, 9): Keyword 'loop' expected.
+# Error: COMP96_0019: functions.vhd : (48, 5): Keyword 'process' expected.
+# Error: COMP96_0019: functions.vhd : (48, 28): Keyword 'end' expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (39, 20): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (39, 20): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (39, 20): ';' expected.
+# Error: COMP96_0015: functions.vhd : (44, 9): ';' expected.
+# Error: COMP96_0019: functions.vhd : (44, 13): Keyword 'end' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (39, 20): ';' expected.
+# Error: COMP96_0015: functions.vhd : (44, 9): ';' expected.
+# Error: COMP96_0019: functions.vhd : (44, 13): Keyword 'end' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (39, 20): ';' expected.
+# Error: COMP96_0015: functions.vhd : (44, 9): ';' expected.
+# Error: COMP96_0019: functions.vhd : (44, 13): Keyword 'end' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (39, 20): ';' expected.
+# Error: COMP96_0015: functions.vhd : (44, 9): ';' expected.
+# Error: COMP96_0019: functions.vhd : (44, 13): Keyword 'end' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (39, 20): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (40, 20): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (40, 20): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0419: functions.vhd : (27, 31): Ambiguous reference to "unsigned". Visible declarations include 'ieee.std_logic_arith.unsigned' and 'ieee.NUMERIC_STD.unsigned'.
+# Error: COMP96_0272: functions.vhd : (27, 31): Ambiguous reference to type "UNSIGNED".
+# Error: COMP96_0104: functions.vhd : (27, 31): Undefined type of expression.
+# Error: COMP96_0419: functions.vhd : (31, 23): Ambiguous reference to "unsigned". Visible declarations include 'ieee.std_logic_arith.unsigned' and 'ieee.NUMERIC_STD.unsigned'.
+# Error: COMP96_0272: functions.vhd : (31, 23): Ambiguous reference to type "UNSIGNED".
+# Error: COMP96_0305: functions.vhd : (31, 12): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0077: functions.vhd : (31, 12): Undefined type of expression. Expected type 'INTEGER'.
+# Error: COMP96_0419: functions.vhd : (40, 26): Ambiguous reference to "unsigned". Visible declarations include 'ieee.std_logic_arith.unsigned' and 'ieee.NUMERIC_STD.unsigned'.
+# Error: COMP96_0272: functions.vhd : (40, 26): Ambiguous reference to type "UNSIGNED".
+# Error: COMP96_0104: functions.vhd : (40, 26): Undefined type of expression.
+# Error: COMP96_0617: functions.vhd : (40, 14): Assignment target incompatible with right side. Cannot convert 'SIGNED' to 'INTEGER'.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0149: functions.vhd : (40, 35): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0617: functions.vhd : (40, 14): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'INTEGER'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0093: functions.vhd : (40, 26): The type of a parameter in a subprogram call does not match to a formal parameter of the "ieee.NUMERIC_STD.SHIFT_RIGHT(ARG : SIGNED; COUNT : NATURAL) return SIGNED" subprogram.
+# Error: COMP96_0617: functions.vhd : (40, 14): Assignment target incompatible with right side. Cannot convert 'SIGNED' to 'INTEGER'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0093: functions.vhd : (40, 26): The type of a parameter in a subprogram call does not match to a formal parameter of the "ieee.NUMERIC_STD.SHIFT_RIGHT(ARG : SIGNED; COUNT : NATURAL) return SIGNED" subprogram.
+# Error: COMP96_0617: functions.vhd : (40, 14): Assignment target incompatible with right side. Cannot convert 'SIGNED' to 'INTEGER'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0149: functions.vhd : (40, 35): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0617: functions.vhd : (40, 14): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'INTEGER'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0117: functions.vhd : (20, 19): Array type for "xTemp" is not constrained.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0617: functions.vhd : (31, 12): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'INTEGER'.
+# Error: COMP96_0093: functions.vhd : (40, 26): The type of a parameter in a subprogram call does not match to a formal parameter of the "ieee.NUMERIC_STD.SHIFT_RIGHT(ARG : SIGNED; COUNT : NATURAL) return SIGNED" subprogram.
+# Error: COMP96_0617: functions.vhd : (40, 14): Assignment target incompatible with right side. Cannot convert 'SIGNED' to 'INTEGER'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0269: functions.vhd : (40, 26): For each formal parameter of a subprogram, a subprogram call must specify exactly one corresponding actual.
+# Error: COMP96_0617: functions.vhd : (40, 14): Assignment target incompatible with right side. Cannot convert 'SIGNED' to 'INTEGER'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0149: functions.vhd : (40, 35): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0617: functions.vhd : (40, 14): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'INTEGER'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0149: functions.vhd : (40, 35): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0617: functions.vhd : (40, 14): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'INTEGER'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (40, 47): ')' expected.
+# Error: COMP96_0019: functions.vhd : (40, 48): Keyword 'end' expected.
+# Error: COMP96_0019: functions.vhd : (47, 5): Keyword 'process' expected.
+# Error: COMP96_0015: functions.vhd : (49, 9): ';' expected.
+# Error: COMP96_0016: functions.vhd : (49, 16): Design unit declaration expected.
+# Error: COMP96_0019: functions.vhd : (50, 28): Keyword 'of' expected.
+# Error: COMP96_0018: functions.vhd : (50, 28): Identifier expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (40, 47): ')' expected.
+# Error: COMP96_0019: functions.vhd : (40, 48): Keyword 'end' expected.
+# Error: COMP96_0019: functions.vhd : (47, 5): Keyword 'process' expected.
+# Error: COMP96_0015: functions.vhd : (49, 9): ';' expected.
+# Error: COMP96_0016: functions.vhd : (49, 16): Design unit declaration expected.
+# Error: COMP96_0019: functions.vhd : (50, 28): Keyword 'of' expected.
+# Error: COMP96_0018: functions.vhd : (50, 28): Identifier expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0617: functions.vhd : (40, 14): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'INTEGER'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0617: functions.vhd : (40, 14): Assignment target incompatible with right side. Cannot convert 'UNSIGNED' to 'INTEGER'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+tb_FunctionCalculator tb_FunctionCalculator tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: The contents of entity 'FunctionCalculator' instantiated in architecture 'tb' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5446 kB (elbread=427 elab2=4878 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location F:\uni\CAD\HW3\hw3\q4\src\wave.asdb
+#  4:41 PM, Thursday, May 16, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW3/hw3/q4/src/wave.asdb'.
+# VSIM: 6 object(s) traced.
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__17.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__17.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0015: functions.vhd : (51, 13): ';' expected.
+# Error: COMP96_0019: functions.vhd : (51, 13): Keyword 'end' expected.
+# Error: COMP96_0019: functions.vhd : (52, 10): Keyword 'process' expected.
+# Error: COMP96_0015: functions.vhd : (61, 5): ';' expected.
+# Error: COMP96_0016: functions.vhd : (61, 9): Design unit declaration expected.
+# Error: COMP96_0019: functions.vhd : (64, 28): Keyword 'of' expected.
+# Error: COMP96_0018: functions.vhd : (64, 28): Identifier expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Error: COMP96_0019: functions.vhd : (61, 5): Keyword 'process' expected.
+# Error: COMP96_0015: functions.vhd : (63, 9): ';' expected.
+# Error: COMP96_0016: functions.vhd : (63, 16): Design unit declaration expected.
+# Error: COMP96_0019: functions.vhd : (64, 28): Keyword 'of' expected.
+# Error: COMP96_0018: functions.vhd : (64, 28): Identifier expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim -O5 +access +r +m+tb_FunctionCalculator tb_FunctionCalculator tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: The contents of entity 'FunctionCalculator' instantiated in architecture 'tb' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5447 kB (elbread=427 elab2=4879 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location F:\uni\CAD\HW3\hw3\q4\src\wave.asdb
+#  4:50 PM, Thursday, May 16, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW3/hw3/q4/src/wave.asdb'.
+# VSIM: 6 object(s) traced.
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__17.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__17.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+tb_FunctionCalculator tb_FunctionCalculator tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: The contents of entity 'FunctionCalculator' instantiated in architecture 'tb' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+acom -dbg -e 100 -work q4 -2002  $dsn/src/TestBench/functioncalculator_TB.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/TestBench/functioncalculator_TB.vhd
+# Compile Entity "tb_FunctionCalculator"
+# Compile Architecture "tb" of Entity "tb_FunctionCalculator"
+# Compile Configuration "cfg_tb_FunctionCalculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5449 kB (elbread=427 elab2=4880 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location F:\uni\CAD\HW3\hw3\q4\src\wave.asdb
+#  4:52 PM, Thursday, May 16, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW3/hw3/q4/src/wave.asdb'.
+# VSIM: 6 object(s) traced.
+run 100 ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__17.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /tb_FunctionCalculator/dut,  Process: line__17.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work q4 -2002  $dsn/src/functions.vhd
+# File: F:/uni/CAD/HW3/hw3/q4/src/functions.vhd
+# Compile Entity "FunctionCalculator"
+# Compile Architecture "Behavioral" of Entity "FunctionCalculator"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# Design: 5:04 PM, Thursday, May 16, 2024
+# Design: Opening design "F:\uni\CAD\HW3\hw3\q6\q6.adf"
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design: Design "q6" has been set as active.

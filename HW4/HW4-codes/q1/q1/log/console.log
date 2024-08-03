@@ -1,0 +1,210 @@
+# Design: Design q1 already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -dbg -e 100 -work q1 -2002  $dsn/src/q1.vhd
+# File: F:/uni/CAD/HW4/q1_2/q1/src/q1.vhd
+# Compile Entity "Ripple_Adder"
+# Compile Architecture "Behavioral" of Entity "Ripple_Adder"
+# Top-level unit(s) detected:
+# Entity => Ripple_Adder
+# Warning: ELAB1_0026: q1.vhd : (45, 0): There is no default binding for component "full_adder_vhdl_code". (No entity named "full_adder_vhdl_code" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+acom -dbg -e 100 -work q1 -2002  $dsn/src/1bit_adder.vhd
+# File: F:/uni/CAD/HW4/q1_2/q1/src/1bit_adder.vhd
+# Error: COMP96_0016: 1bit_adder.vhd : (2, 1): Design unit declaration expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q1 -2002  $dsn/src/1bit_adder.vhd
+# File: F:/uni/CAD/HW4/q1_2/q1/src/1bit_adder.vhd
+# Compile Entity "full_adder_vhdl_code"
+# Compile Architecture "gate_level" of Entity "full_adder_vhdl_code"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -dbg -e 100 -work q1 -2002  $dsn/src/q1.vhd
+# File: F:/uni/CAD/HW4/q1_2/q1/src/q1.vhd
+# Compile Entity "Ripple_Adder"
+# Compile Architecture "Behavioral" of Entity "Ripple_Adder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -dbg -e 100 -work q1 -2002  $dsn/src/q1.vhd $dsn/src/1bit_adder.vhd
+# File: F:/uni/CAD/HW4/q1_2/q1/src/q1.vhd
+# Compile Entity "Ripple_Adder"
+# Compile Architecture "Behavioral" of Entity "Ripple_Adder"
+# File: F:/uni/CAD/HW4/q1_2/q1/src/1bit_adder.vhd
+# Compile Entity "full_adder_vhdl_code"
+# Compile Architecture "gate_level" of Entity "full_adder_vhdl_code"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work q1 -2002  $dsn/src/TestBench/full_adder_vhdl_code_TB.vhd
+# File: F:/uni/CAD/HW4/q1_2/q1/src/TestBench/full_adder_vhdl_code_TB.vhd
+# Compile Entity "Tb_Ripple_Adder"
+# Compile Architecture "behavior" of Entity "Tb_Ripple_Adder"
+# Error: COMP96_0033: TestBench/full_adder_vhdl_code_TB.vhd : (38, 8): Missing actual.
+# Error: COMP96_0724: TestBench/full_adder_vhdl_code_TB.vhd : (38, 8): ',' or ')' expected.
+# Error: COMP96_0015: TestBench/full_adder_vhdl_code_TB.vhd : (38, 10): ';' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work q1 -2002  $dsn/src/TestBench/full_adder_vhdl_code_TB.vhd
+# File: F:/uni/CAD/HW4/q1_2/q1/src/TestBench/full_adder_vhdl_code_TB.vhd
+# Compile Entity "Tb_Ripple_Adder"
+# Compile Architecture "behavior" of Entity "Tb_Ripple_Adder"
+# Error: COMP96_0033: TestBench/full_adder_vhdl_code_TB.vhd : (38, 8): Missing actual.
+# Error: COMP96_0724: TestBench/full_adder_vhdl_code_TB.vhd : (38, 8): ',' or ')' expected.
+# Error: COMP96_0015: TestBench/full_adder_vhdl_code_TB.vhd : (38, 10): ';' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -dbg -e 100 -work q1 -2002  $dsn/src/TestBench/full_adder_vhdl_code_TB.vhd
+# File: F:/uni/CAD/HW4/q1_2/q1/src/TestBench/full_adder_vhdl_code_TB.vhd
+# Compile Entity "Tb_Ripple_Adder"
+# Compile Architecture "behavior" of Entity "Tb_Ripple_Adder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+Ripple_Adder Ripple_Adder Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+acom -dbg -e 100 -work q1 -2002  $dsn/src/q1.vhd
+# File: F:/uni/CAD/HW4/q1_2/q1/src/q1.vhd
+# Compile Entity "Ripple_Adder"
+# Compile Architecture "Behavioral" of Entity "Ripple_Adder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6422 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\uni\CAD\HW4\q1_2\q1\src\wave.asdb
+#  4:27 PM, Saturday, June 8, 2024
+#  Simulation has been initialized
+# VSIM: 8 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW4/q1_2/q1/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+Tb_Ripple_Adder Tb_Ripple_Adder behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6426 kB (elbread=427 elab2=5859 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location F:\uni\CAD\HW4\q1_2\q1\src\wave.asdb
+#  4:28 PM, Saturday, June 8, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW4/q1_2/q1/src/wave.asdb'.
+# VSIM: 5 object(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Tb_Ripple_Adder Tb_Ripple_Adder behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6426 kB (elbread=427 elab2=5859 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location F:\uni\CAD\HW4\q1_2\q1\src\wave.asdb
+#  4:29 PM, Saturday, June 8, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/uni/CAD/HW4/q1_2/q1/src/wave.asdb'.
+# VSIM: 5 object(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.

@@ -1,0 +1,6 @@
+27
+~C 1 "../src/TestBench/numberoperations_TB.vhd" 110 cfg_tb_numberoperations
+~E 1 "../src/number_processor.vhd" 5 NumberOperations
+~A 1 "../src/number_processor.vhd" 14 Behavioral
+~E 1 "../src/TestBench/numberoperations_TB.vhd" 4 tb_NumberOperations
+~A 1 "../src/TestBench/numberoperations_TB.vhd" 7 tb

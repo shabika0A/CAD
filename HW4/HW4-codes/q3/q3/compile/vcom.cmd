@@ -1,0 +1,1 @@
+-w -erf F:/uni/CAD/HW4/q3/q3/compile/q3.erf -d F:/uni/CAD/HW4/q3/q3/compile -s F:/uni/CAD/HW4/q3/library.cfg -j F:/uni/CAD/HW4/q3/q3/projlib.cfg -work q3 -reorder -dbg -e 100 -work q3 -2002 F:/uni/CAD/HW4/q3/q3/src/q3.vhd F:/uni/CAD/HW4/q3/q3/src/TestBench/password_system_TB.vhd 

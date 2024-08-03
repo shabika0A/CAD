@@ -1,0 +1,6 @@
+41
+~C 1 "../src/TestBench/traffic_light_TB.vhd" 62 cfg_tb_traffic_light
+~E 1 "../src/TestBench/traffic_light_TB.vhd" 4 tb_traffic_light
+~A 1 "../src/TestBench/traffic_light_TB.vhd" 7 tb
+~E 1 "../src/traffic_light.vhd" 170 traffic_light
+~A 1 "../src/traffic_light.vhd" 14 behavior

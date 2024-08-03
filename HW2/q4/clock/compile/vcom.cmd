@@ -1,0 +1,1 @@
+-w -erf F:/uni/CAD/HW2/q4/clock/compile/clock.erf -d F:/uni/CAD/HW2/q4/clock/compile -s F:/uni/CAD/HW2/q4/library.cfg -j F:/uni/CAD/HW2/q4/clock/projlib.cfg -work clock -reorder -dbg -e 100 -work clock -2002 F:/uni/CAD/HW2/q4/clock/src/clock_with_alarm.vhd F:/uni/CAD/HW2/q4/clock/src/TestBench/clock_TB.vhd 

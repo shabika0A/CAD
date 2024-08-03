@@ -1,0 +1,30 @@
+[COMPILESTATUS|.\src\binaryConverter.vhd]
+FileTimeLow=1188587048
+FileTimeHigh=31106368
+Status=Modified
+[COMPILESTATUS|.\src\TestBench\binary_to_unary_TB.vhd]
+FileTimeLow=2959544399
+FileTimeHigh=31106368
+Status=Modified
+[COMPILESTATUS|.\src\TestBench\binary_to_unary_TB_runtest.do]
+FileTimeLow=2893553568
+FileTimeHigh=31106362
+Status=Modified
+[COMPILESTATUS|.\src\test1.asdb]
+FileTimeLow=3161418707
+FileTimeHigh=31106368
+Status=Modified
+[COMPILESTATUS|.\src\test1.awc]
+FileTimeLow=3164856170
+FileTimeHigh=31106368
+Status=Modified
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+q1=0
+q2=0
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\q1\q1.adf|]
+Path=
+[Gui config]
+RunFor=1000 ns
